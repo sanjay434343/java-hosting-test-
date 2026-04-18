@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: java-backend
+    runtime: java
+    buildCommand: javac Main.java
+    startCommand: java Main
+    
