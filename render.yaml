@@ -1,7 +1,7 @@
 services:
   - type: web
     name: java-backend
-    runtime: java
+    env: docker
+    plan: free
     buildCommand: javac Main.java
     startCommand: java Main
-    
